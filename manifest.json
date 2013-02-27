@@ -1,0 +1,15 @@
+{
+  "name" : "Tumblr 0rchive",
+  "version" : "1.0.1",
+  "description" : "Shows a linkbar on tumblr permalink pages, giving one-click access to the tumblr's archie page",
+  "permissions" : [],
+  "content_scripts" : [
+    {
+      "matches" : [ "http://*.tumblr.com/post/*" ],
+      "js" : [ "contentscript.js" ],
+      "run_at" : "document_idle",
+      "all_frames" : false
+    }
+  ],
+  "manifest_version": 2
+}
