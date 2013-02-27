@@ -1,7 +1,7 @@
 {
   "name" : "Tumblr 0rchive",
   "version" : "1.0.1",
-  "description" : "Shows a linkbar on tumblr permalink pages, giving one-click access to the tumblr's archie page",
+  "description" : "Shows a linkbar on tumblr posts (permalinks), giving one-click access to the tumblr's archive page",
   "permissions" : [],
   "content_scripts" : [
     {
